@@ -1,0 +1,101 @@
+html, body {
+    height: auto;
+    width: auto;
+}
+
+html, header, body, main, footer {
+    padding: 0;
+    margin: 0;
+}
+
+.yellow {
+    color: #FFC107;
+}
+
+h3 {
+    color: #212121;
+    font-family: Lato;
+    font-size: var(--Display-Medium-Size, 45px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(43, 40px);
+    grid-template-rows: repeat(28, 40px);
+
+}
+
+nav {
+    grid-column: 1 / 29;
+    grid-row: 1 / 4;
+    width: 1120px;
+    height: 100px;
+    flex-shrink: 1;
+    border-radius: var(--Corner-None, 0px) var(--Corner-None, 0px) 1000px var(--Corner-None, 0px);
+    background: #333;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    color: #FAFAFA;
+    font-family: "Faster One";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 75%;
+}
+nav ul li a { 
+    margin: 20px;
+    color: #FAFAFA;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+body {
+    background-color: #E0E0E0;
+    height: 1117px;
+    width: 1728px
+}
+
+footer {
+    grid-column: 16 / span 28;
+    grid-row: 25 / span 4;
+    width: 1120px;
+    height: 100px;
+    flex-shrink: 1;
+    border-radius: 1000px var(--Corner-None, 0px) var(--Corner-None, 0px) var(--Corner-None, 0px);
+    background: #FFC107;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+footer p{
+    color: #FAFAFA;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
