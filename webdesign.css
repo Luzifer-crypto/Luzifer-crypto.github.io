@@ -3,7 +3,7 @@ html, body {
     width: auto;
 }
 
-html, header, body, main, footer {
+html, header, body, footer {
     padding: 0;
     margin: 0;
 }
@@ -25,11 +25,11 @@ a {
     text-decoration: none;
 }
 
-main {
+body {
     display: grid;
     grid-template-columns: repeat(43, 40px);
     grid-template-rows: repeat(28, 40px);
-
+    background-color: #E0E0E0;
 }
 
 nav {
@@ -69,12 +69,6 @@ nav ul li a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-body {
-    background-color: #E0E0E0;
-    height: 1117px;
-    width: 1728px
 }
 
 body .wip {

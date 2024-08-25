@@ -1,9 +1,9 @@
-html, main {
+html,body{
     height: auto;
     width: auto;
 }
 
-html, header, body, main, footer {
+html, header, body,footer {
     padding: 0;
     margin: 0;
 }
@@ -29,6 +29,7 @@ body {
     display: grid;
     grid-template-columns: repeat(43, 40px);
     grid-template-rows: repeat(28, 40px);
+    background-color: #E0E0E0;
 
 }
 
@@ -42,6 +43,7 @@ nav {
     background: #333;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 nav .logo {
@@ -71,13 +73,7 @@ nav ul li a {
     line-height: normal;
 }
 
-body main {
-    background-color: #E0E0E0;
-    height: 1117px;
-    width: 1728px
-}
-
-body main .about_me{
+body   .about_me{
     width: 760px;
     height: 600px;
     grid-column: 2/ 21;
@@ -89,7 +85,7 @@ body main .about_me{
     justify-content: center;
 }
 
-body main .about_me p {
+body   .about_me p {
     color: #000;
     font-family: Merriweather;
     font-size: 24px;
@@ -98,7 +94,7 @@ body main .about_me p {
     line-height: normal;
 }
 
-body main .skill_bar{
+body   .skill_bar{
     display: flex;
     flex-direction: column;
     grid-row: 5 / span 16;
@@ -107,14 +103,14 @@ body main .skill_bar{
     align-items: flex-start;
 }
 
-body main .skill_bar ul{
+body   .skill_bar ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
 }
 
-body main .skill_bar ul .barTemplate {
+body   .skill_bar ul .barTemplate {
     width: 400px;
     height: 60px;
     background-color: #FAFAFA;
@@ -127,13 +123,13 @@ body main .skill_bar ul .barTemplate {
     margin-bottom: 20px;
 }
 
-body main .skill_bar ul .barTemplate .barImg{
+body   .skill_bar ul .barTemplate .barImg{
     width: 44px;
     height: 44px;
     margin-right: 0;
 }
 
-body main .skill_bar ul .barTemplate .barframe{
+body   .skill_bar ul .barTemplate .barframe{
     width: 330px;
     height: 40px;
     background-color: none;
@@ -153,7 +149,7 @@ body main .skill_bar ul .barTemplate .barframe{
     margin-right: 5%;
 }
 
-body main .skill_bar ul .barTemplate .barframe .detail{
+body   .skill_bar ul .barTemplate .barframe .detail{
     height: 40px;
     border-radius: 40px;
     display: flex;
@@ -161,48 +157,48 @@ body main .skill_bar ul .barTemplate .barframe .detail{
     align-items: center;
 }
 
-body main .skill_bar ul .barTemplate .barframe #html {
+body   .skill_bar ul .barTemplate .barframe #html {
     width: 95%;
     background-color: #E44D26;
 }
 
-body main .skill_bar ul .barTemplate .barframe #css {
+body   .skill_bar ul .barTemplate .barframe #css {
     width: 90%;
     border-radius: 40px;
     background-color: #1572B6;
 }
 
-body main .skill_bar ul .barTemplate .barframe #js {
+body   .skill_bar ul .barTemplate .barframe #js {
     width: 70%;
     background-color: #F0DB4F;
 }
 
-body main .skill_bar ul .barTemplate .barframe #cpp {
+body   .skill_bar ul .barTemplate .barframe #cpp {
     width: 85%;
     background-color: #5C8DBC;
 }
 
-body main .skill_bar ul .barTemplate .barframe #python {
+body   .skill_bar ul .barTemplate .barframe #python {
     width: 50%;
     background-color: #3C78A9;
 }
 
-body main .skill_bar ul .barTemplate .barframe #illustrator {
+body   .skill_bar ul .barTemplate .barframe #illustrator {
     width: 95%;
     background-color: #FAA625;
 }
 
-body main .skill_bar ul .barTemplate .barframe #photoshop {
+body   .skill_bar ul .barTemplate .barframe #photoshop {
     width: 45%;
     background-color: #80B5E2;
 }
 
-body main .skill_bar ul .barTemplate .barframe #sql {
+body   .skill_bar ul .barTemplate .barframe #sql {
     width: 95%;
     background-color: #0B7FCC;
 }
 
-body main .checkbox {
+body   .checkbox {
     display: flex;
     flex-direction: column;
     grid-row: 5 / span 16;
@@ -212,7 +208,7 @@ body main .checkbox {
     align-items: flex-start;
 }
 
-body main .checkbox ul {
+body   .checkbox ul {
     list-style: none;
     margin: 0;
     display: flex;
@@ -221,7 +217,7 @@ body main .checkbox ul {
     align-items: center;
 }
 
-body main .checkbox ul .checkboxTemplate {
+body   .checkbox ul .checkboxTemplate {
     width: 400px;
     height: 60px;
     background-color: #FAFAFA;
@@ -236,7 +232,7 @@ body main .checkbox ul .checkboxTemplate {
     padding: 0 20px;
 }
 
-body main .checkbox ul .checkboxTemplate p {
+body   .checkbox ul .checkboxTemplate p {
     color: #000;
     font-family: Lato;
     font-size: 22px;
@@ -246,7 +242,7 @@ body main .checkbox ul .checkboxTemplate p {
     margin: 0;
 }
 
-body main .checkbox .checkboxTemplate #check {
+body   .checkbox .checkboxTemplate #check {
     position: relative;
     margin-left: auto;
 }
