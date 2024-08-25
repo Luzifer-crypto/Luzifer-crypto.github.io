@@ -1,4 +1,4 @@
-html, body {
+html{
     height: auto;
     width: auto;
 }
@@ -25,10 +25,11 @@ a {
     text-decoration: none;
 }
 
-main {
+body {
     display: grid;
     grid-template-columns: repeat(43, 40px);
     grid-template-rows: repeat(28, 40px);
+    background-color: #E0E0E0;
 
 }
 
@@ -71,10 +72,9 @@ nav ul li a {
     line-height: normal;
 }
 
-body {
-    background-color: #E0E0E0;
-    height: 1117px;
-    width: 1728px
+main {
+    grid-row: 4/25;
+    grid-column: 1/43;
 }
 
 footer {

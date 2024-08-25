@@ -77,6 +77,15 @@ body {
     width: 1728px
 }
 
+body .wip {
+    grid-column: 3/25;
+    grid-row: 5/ 38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
+
 footer {
     grid-column: 16 / span 28;
     grid-row: 25 / span 4;

@@ -74,7 +74,16 @@ nav ul li a {
 body {
     background-color: #E0E0E0;
     height: 1117px;
-    width: 1728px
+    width: 1728px;
+}
+
+body .wip {
+    grid-column: 3/25;
+    grid-row: 5/ 38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
 }
 
 footer {
