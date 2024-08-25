@@ -1,9 +1,9 @@
-html{
+html, body{
     height: auto;
     width: auto;
 }
 
-html, header, body, main, footer {
+html, header, body,footer {
     padding: 0;
     margin: 0;
 }
@@ -71,10 +71,129 @@ nav ul li a {
     font-weight: 700;
     line-height: normal;
 }
-
 main {
-    grid-row: 4/25;
-    grid-column: 1/43;
+    grid-column: 1/44;
+    grid-row: 4/26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .info {
+    width: 500px;
+    height: 440px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body .info h1 {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    }
+
+ body .info p {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+ }
+
+ body .contactform {
+    height: 760px;
+    width: 620px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+ }
+
+ form section {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+ }
+
+ #st {
+    color: #333;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2.5%;
+ }
+
+ #lc {
+    color: #333;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+ }
+
+ form .fullName input {
+    width: 42.5%;
+    height: auto;
+    margin-right: 5%;
+ }
+.lName {
+    position: relative;
+    margin-left: 32.5%;
+ }
+ 
+ form .Company input {
+    width: 42.5%;
+ }
+
+ form .mail input {
+    width: 99%;
+ }
+
+form .message {
+    height: 45%;
+    margin-bottom: 2.5%;
+}
+form .message textarea {
+    width: 99%;
+    height: 90%;
+}
+#submit {
+    display: flex;
+    justify-content: center;
+}
+form #submit input{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px #333;
+    background: #EBEBEB;
 }
 
 footer {
