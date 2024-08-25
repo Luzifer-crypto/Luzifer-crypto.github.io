@@ -77,6 +77,180 @@ body {
     width: 1728px
 }
 
+body .about_me{
+    width: 760px;
+    height: 600px;
+    grid-column: 3/ 22;
+    grid-row: 5 / 20;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .about_me p {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body .skill_bar{
+    display: flex;
+    flex-direction: column;
+    grid-row: 5 / span 16;
+    grid-column: 22 / span 10;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+body .skill_bar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+body .skill_bar ul .barTemplate {
+    width: 400px;
+    height: 60px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+body .skill_bar ul .barTemplate .barImg{
+    width: 44px;
+    height: 44px;
+    margin-right: 0;
+}
+
+body .skill_bar ul .barTemplate .barframe{
+    width: 330px;
+    height: 40px;
+    background-color: none;
+    border: 2px solid #333;
+    border-radius: 40px;
+    margin-left: 0;
+}
+
+
+#percent{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 5%;
+}
+
+body .skill_bar ul .barTemplate .barframe .detail{
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+body .skill_bar ul .barTemplate .barframe #html {
+    width: 95%;
+    background-color: #E44D26;
+}
+
+body .skill_bar ul .barTemplate .barframe #css {
+    width: 90%;
+    border-radius: 40px;
+    background-color: #1572B6;
+}
+
+body .skill_bar ul .barTemplate .barframe #js {
+    width: 70%;
+    background-color: #F0DB4F;
+}
+
+body .skill_bar ul .barTemplate .barframe #cpp {
+    width: 85%;
+    background-color: #5C8DBC;
+}
+
+body .skill_bar ul .barTemplate .barframe #python {
+    width: 50%;
+    background-color: #3C78A9;
+}
+
+body .skill_bar ul .barTemplate .barframe #illustrator {
+    width: 95%;
+    background-color: #FAA625;
+}
+
+body .skill_bar ul .barTemplate .barframe #photoshop {
+    width: 45%;
+    background-color: #80B5E2;
+}
+
+body .skill_bar ul .barTemplate .barframe #sql {
+    width: 95%;
+    background-color: #0B7FCC;
+}
+
+body .checkbox {
+    display: flex;
+    flex-direction: column;
+    grid-row: 5 / span 16;
+    grid-column: 33 / span 10;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+body .checkbox ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body .checkbox ul .checkboxTemplate {
+    width: 400px;
+    height: 60px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+body .checkbox ul .checkboxTemplate p {
+    color: #000;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+body .checkbox .checkboxTemplate #check {
+    position: relative;
+    margin-left: auto;
+}
+
 footer {
     grid-column: 16 / span 28;
     grid-row: 25 / span 4;
@@ -98,4 +272,5 @@ footer p{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right: 2%;
 }
