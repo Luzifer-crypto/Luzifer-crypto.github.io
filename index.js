@@ -10,6 +10,7 @@ function switchEnglish(){
     baseBox.style.backgroundColor = "#FFC107";
     german.style.color = "#FAFAFA";
     smallBox.style.backgroundColor = "#333";
+    alert("WIP, translation coming soon");
 }
 
 function switchGerman(){
@@ -17,6 +18,7 @@ function switchGerman(){
     baseBox.style.backgroundColor = "#333";
     german.style.color = "#333";
     smallBox.style.backgroundColor = "#FFC107";
+    alert("WIP, translation coming soon");
 }
 
 english.addEventListener("click", switchEnglish);
